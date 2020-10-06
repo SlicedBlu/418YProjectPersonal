@@ -17,6 +17,14 @@ code {
     monospace;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  text-decoration: bold;
+}
+
 #login_container {
   margin: 100px auto;
   padding: 50px 0px;
@@ -25,6 +33,15 @@ code {
   border-radius: 25px;
   height: 100%;
   width: 50%;
+}
+
+#help, #about {
+  text-align: center;
+  font-size: 32px;
+}
+
+#about p {
+  margin: 20px 20%;
 }
 
 form {
@@ -61,7 +78,6 @@ img#profPic {
 img#logo {
   max-width: 100px;
   max-height: 100px;
-  cursor: pointer;
 }
 
 #header {
@@ -76,6 +92,11 @@ img#logo {
 
 ul {
   padding-left: 0px;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+  color: white;
 }
 
 .nav {
@@ -115,4 +136,44 @@ button:hover {
   width: 30%;
   margin: 40px 25px 0px 25px;
   min-width: 85px;
+}
+
+#content_wrapper {
+  margin: 0px 20%;
+  background-color: white;
+  border: 5px solid black;
+  border-top: 0px;
+  height: 800px;
+  display: block;
+  box-sizing: content-box;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.topic {
+  height: 100px;
+  border: 5px solid gray;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: #d6d6d6;
+}
+
+.topic:hover {
+  cursor: pointer;
+  background-color: #e8e8e8;
+}
+
+.topic p {
+  line-height: 100px;
+  margin: auto;
+  width: 100%;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.topic span {
+  color: gray;
+  font-size: 24px;
 }
